@@ -90,29 +90,10 @@ html{
     font-size: 36px;
     margin-left: 10vw;
 }
-
-/* .inicio .presentacion{
-    padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-    border-radius: 40px;
-}
-.inicio .contenido-banner img{
-    margin-top: 40px;
-    border: 10px solid #1CB698;
-    display: block;
-    width: 80%;
-    margin: auto;
-    border-radius: 100%;
-}
-
 .inicio .contenido-banner h2{
     font-size: 15px;
     font-weight: normal;
-}*/
-
+}
 .inicio .presentacion .box-redes{
     display: flex;
     justify-content: flex-start;
@@ -152,6 +133,11 @@ html{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+
+}
+.sobremi .contenido-seccion button a{
+    text-decoration: none;
+    color: #fff;
 
 }
 .sobremi .contenido-seccion p{
@@ -319,32 +305,32 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .boostrap{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s boostrap forwards;
 }
-@keyframes photoshop {
+@keyframes boostrap {
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .gitGithub{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s gitGithub forwards;
 }
-@keyframes wordpress {
+@keyframes gitGithub {
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .nodejs{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s nodejs forwards;
 }
-@keyframes drupal {
+@keyframes nodejs {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -367,13 +353,13 @@ html{
     100%{width: 70%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .adaptabilidad{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s adaptabilidad forwards;
 }
-@keyframes creatividad {
+@keyframes adaptabilidad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .dedicacion{
@@ -382,16 +368,16 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 85%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .liderazgo{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s liderazgo forwards;
 }
-@keyframes proyect {
+@keyframes liderazgo {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 70%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -556,6 +542,22 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+
+.carrusel-desktop .carousel .carousel-inner a h5{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.carrusel-desktop .carousel .carousel-inner a p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carrusel-desktop .carousel .carousel-inner .carousel-item .carousel-caption{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2px 5px 0;
+}
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
